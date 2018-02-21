@@ -14,14 +14,13 @@ The pictures are just a mass download from Google Pictures.
 
 I currently manually enter 1 picture to test the accuracy.  By no means is that what I want for the end goal.
 
-THe conversion from ID to Person Name is just a quick hack but will refactor that out.
+The conversion from ID to Person Name is just a quick hack but will refactor that out.
 
 
-*******
-1.  Be sure to change the folder locations for your:
-    a.  trainning.py - dataSet YML file store location
-    b.  trainning.py - YML file name
-    c.  facerecognition.py - filename and locaiton
-    d.  facerecognition.py - faceCascade filename and location
-    e.  facerecognition.py - test file name
-    f.  facerecognition.py - test file write filename and location
+Be sure to change the folder locations for your:
+-trainning.py - dataSet YML file store location
+-trainning.py - YML file name
+-facerecognition.py - filename and locaiton
+-facerecognition.py - faceCascade filename and location
+-facerecognition.py - test file name
+-facerecognition.py - test file write filename and location
