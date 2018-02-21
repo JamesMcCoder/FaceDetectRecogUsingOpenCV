@@ -16,11 +16,16 @@ I currently manually enter 1 picture to test the accuracy.  By no means is that 
 
 The conversion from ID to Person Name is just a quick hack but will refactor that out.
 
-
 Be sure to change the folder locations for your:
--trainning.py - dataSet YML file store location
--trainning.py - YML file name
--facerecognition.py - filename and locaiton
--facerecognition.py - faceCascade filename and location
--facerecognition.py - test file name
--facerecognition.py - test file write filename and location
+
+1. trainning.py - dataSet YML file store location
+
+2. trainning.py - YML file name
+
+3. facerecognition.py - filename and locaiton
+
+4. facerecognition.py - faceCascade filename and location
+
+5. facerecognition.py - test file name
+
+6. facerecognition.py - test file write filename and location
