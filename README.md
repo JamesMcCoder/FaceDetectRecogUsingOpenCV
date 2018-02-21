@@ -24,10 +24,8 @@ Be sure to change the folder locations for your:
 
 3. facerecognition.py - filename and location for YML file
 
-4. facerecognition.py - location to store result images
+4. facerecognition.py - location of test images
 
 5. facerecognition.py - faceCascade filename and location
 
-6. facerecognition.py - test file name
-
-7. facerecognition.py - test file write filename and location
+6. facerecognition.py - location to store result images
