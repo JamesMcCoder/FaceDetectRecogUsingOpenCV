@@ -1,5 +1,5 @@
 # FaceDetectRecogUsingOpenCV
-Face Detection and Recognition Using OpenCV
+Python3 Face Detection and Recognition Using OpenCV
 
 Inspiration from the many coders out there sharing their work and passion.
 
