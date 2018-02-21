@@ -22,10 +22,12 @@ Be sure to change the folder locations for your:
 
 2. trainning.py - YML file name
 
-3. facerecognition.py - filename and locaiton
+3. facerecognition.py - filename and location for YML file
 
-4. facerecognition.py - faceCascade filename and location
+4. facerecognition.py - location to store result images
 
-5. facerecognition.py - test file name
+5. facerecognition.py - faceCascade filename and location
 
-6. facerecognition.py - test file write filename and location
+6. facerecognition.py - test file name
+
+7. facerecognition.py - test file write filename and location
