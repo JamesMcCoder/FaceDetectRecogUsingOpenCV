@@ -14,6 +14,6 @@ The pictures are just a mass download from Google Pictures.
 
 The conversion from ID to Person Name is just a quick hack but will refactor that out.
 
-This code can run both Eigen and LBPH Face Regognizers.
+This code can run either Eigen, Fisher or LBPH Face Regognizers.
 
 For this reason, there is an extra script to pull all faces, resize and save in greyscale of your test set.  This essentially creates a new test set which you will then train against.
