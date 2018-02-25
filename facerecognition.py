@@ -1,3 +1,4 @@
+
 import cv2
 import numpy as np
 import os
@@ -14,6 +15,7 @@ faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 cam = cv2.VideoCapture(0)
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 #recognizer = cv2.face.EigenFaceRecognizer_create()
+#recognizer = cv2.face.FisherFaceRecognizer_create()
 recognizer.read(fname)
 
 #get the path of all the files in the folder
