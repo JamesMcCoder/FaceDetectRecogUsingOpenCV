@@ -1,3 +1,4 @@
+
 # FaceDetectRecogUsingOpenCV
 Python3 Face Detection and Recognition Using OpenCV
 
@@ -19,5 +20,7 @@ This code can run either Eigen, Fisher or LBPH Face Regognizers.
 For this reason, there is an extra script to pull all faces, resize and save in greyscale of your test set.  This essentially creates a new test set which you will then train against.
 
 The renameFilesBatch.py input parameters will look like:
+
 rename(dir, pattern, titlePattern)
+
 Example:  rename(r'In', r'*.*', r'AngelinaJolie.1.')
