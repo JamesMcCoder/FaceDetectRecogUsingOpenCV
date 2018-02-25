@@ -1,5 +1,4 @@
-
-# FaceDetectRecogUsingOpenCV
+*# FaceDetectRecogUsingOpenCV
 Python3 Face Detection and Recognition Using OpenCV
 
 Inspiration from the many coders out there sharing their work and passion.
@@ -23,4 +22,4 @@ The renameFilesBatch.py input parameters will look like:
 
 rename(dir, pattern, titlePattern)
 
-Example:  rename(r'In', r'*.*', r'AngelinaJolie.1.')
+Example:  rename(r'In', r'*.jpeg', r'AngelinaJolie.1.')
