@@ -4,6 +4,7 @@ from PIL import Image
 
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 #recognizer = cv2.face.EigenFaceRecognizer_create()
+#recognizer = cv2.face.FisherFaceRecognizer_create()
 
 path = 'dataSet'
 if not os.path.exists('./trainner'):
