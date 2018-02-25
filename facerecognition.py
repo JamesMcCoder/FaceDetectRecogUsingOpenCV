@@ -10,9 +10,10 @@ if not os.path.isfile(fname):
     print("Please train the data first")
     exit(0)
 
-faceCascade = cv2.CascadeClassifier('/home/pi/opencv-3.3.0/data/haarcascades/haarcascade_frontalface_default.xml')
+faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 cam = cv2.VideoCapture(0)
 recognizer = cv2.face.LBPHFaceRecognizer_create()
+#recognizer = cv2.face.EigenFaceRecognizer_create()
 recognizer.read(fname)
 
 #get the path of all the files in the folder
@@ -27,7 +28,14 @@ for imagePath in imagePaths:
     faces=faceCascade.detectMultiScale(gray, 1.3, 5)
     for(x,y,w,h) in faces:
          cv2.rectangle(im,(x,y),(x+w,y+h),(0,255,0),3)
-         Id,conf = recognizer.predict(gray[y:y+h,x:x+w])
+         
+         thisImg = gray[y:y+h,x:x+w]
+         r = 150.0 / thisImg.shape[1]
+         dim = (150, int(thisImg.shape[0] * r))
+         # perform the actual resizing of the image and show it
+         resized = cv2.resize(thisImg, dim, interpolation = cv2.INTER_AREA)
+            
+         Id,conf = recognizer.predict(resized)
          print (conf)
          #if conf < 50:
          if(Id==1):
